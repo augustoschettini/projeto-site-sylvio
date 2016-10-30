@@ -1,0 +1,35 @@
+Estrutura de um site institucional
+Obrigatório: Home - produto ou serviço - empresa - contato
+Desejável: detalhes - Clientes - local
+opcional: preços - comentários - redes sociais
+
+
+Class
+-header para todo cabeçalho
+-logo para o logotipo
+-menu para o menu das páginas
+-wrap para centralizar o conteúdo em 960px
+
+
+Home: imagem de fundo + 2 caixa de texto (Divulgação sobre sustentabilidade , conheça nossos produtos)
+Quem Somos: História, Visão, Missão, Valores
+Produtos: Fabricação de equipamentos com carregamento via enegia fotovoltaica
+Galeria com alguns produtos + Formulário de contato ao lado
+Contato: Informações para contato + fomulário de contato
+
+
+
+
+
+REDES
+diretoria 3 PC + 3 Note + 3 Cel
+4 PC adm
+3 PC mkt
+Vendas 3 PC
+1 PC recepção
+Tecnologia 10 PC + 5 Note
+CPD 2 SW + 1 PABX + 1 Servidor para nuvem
+Sala de Reunião 1 note wifi
+Show room 1 PC + Wifi
+Sala de Espera Wi-Fi visitante
+Impressora 5 Grande Volume + 2 A3
