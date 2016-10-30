@@ -37,3 +37,7 @@
     display: block;
     width: 960px;
 }
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald|Roboto:400,500,700');
+font-family: 'Roboto', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
