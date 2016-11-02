@@ -1,0 +1,24 @@
+body{
+    > header{
+        padding: 25px 0;
+        > .content{
+            @include make-row;
+            > .logo-container{
+                @include make-md-column(3);
+                > .logo-container__logo{
+                    @include make-md-column(10);
+                }
+            }
+            > .menu-container{
+                @include make-md-column(7);
+                @include make-md-column-offset(5);
+            }
+        }
+    }
+    input{
+        height: 45px;
+        font: 13px $font-main;
+        color: #FFFFFF;
+        margin-top: 7px;
+    }
+}
