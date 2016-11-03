@@ -1,144 +1,33 @@
-body > header {
-  padding: 25px 0;
-  background: #4CAF50; }
-  body > header > .content {
-    margin-left: -15px;
-    margin-right: -15px; }
-    body > header > .content:before, body > header > .content:after {
-      content: " ";
-      display: table; }
-    body > header > .content:after {
-      clear: both; }
-    body > header > .content > .logo-container {
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        body > header > .content > .logo-container {
-          float: left;
-          width: 25%; } }
-      body > header > .content > .logo-container > .logo-container__logo {
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px; }
-        @media (min-width: 992px) {
-          body > header > .content > .logo-container > .logo-container__logo {
-            float: left;
-            width: 83.33333%; } }
-    body > header > .content > .search-container {
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        body > header > .content > .search-container {
-          float: left;
-          width: 58.33333%; } }
-      @media (min-width: 992px) {
-        body > header > .content > .search-container {
-          margin-left: 41.66667%; } }
-      body > header > .content > .search-container input {
-        height: 45px;
-        font: 13px "Roboto", sans-serif;
-        color: #FFFFFF;
-        margin-top: 7px; }
-    body > header > .content > .menu-container {
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        body > header > .content > .menu-container {
-          float: left;
-          width: 50%; } }
-      @media (min-width: 992px) {
-        body > header > .content > .menu-container {
-          margin-left: 50%; } }
-      body > header > .content > .menu-container .navbar {
-        border-radius: 6px;
-        box-shadow: none;
-        border: none;
-        background: #558b2f; }
-        body > header > .content > .menu-container .navbar .navbar-collapse {
-          border: none; }
-          body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
-            padding-left: 5px;
-            padding-right: 5px; }
-            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a {
-              background: #33691e;
-              color: #fff;
-              font: bold 17px "Roboto", sans-serif; }
-              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a:hover {
-                color: #76ff03; }
-            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a {
-              color: #fff; }
-              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
-                color: #76ff03;
-                background: #33691e; }
+/*
+Sass::SyntaxError: "body > footer > #redes-sociais ul#redes-sociais__icons > li > a.icon" failed to @extend ".sprite_redes_sociais".
+The selector ".sprite_redes_sociais" was not found.
+Use "@extend .sprite_redes_sociais !optional" if the extend should be able to fail.
 
-body > footer {
-  background: #ccc;
-  padding: 30px 0 95px; }
-  body > footer #footer-sidebar > .footer-widget {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 768px) {
-      body > footer #footer-sidebar > .footer-widget {
-        float: left;
-        width: 33.33333%; } }
-    @media (min-width: 992px) {
-      body > footer #footer-sidebar > .footer-widget {
-        float: left;
-        width: 33.33333%; } }
-    body > footer #footer-sidebar > .footer-widget p {
-      color: #000;
-      font: 11px "Roboto", sans-serif; }
-    body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
-      display: block;
-      width: 80%; }
-    body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
-      width: 75%;
-      margin: 20px 0 0; }
 
-@media screen and (max-width: 768px) {
-  body > header > .content > .logo-container > .logo-container__logo {
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%; }
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about a,
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
-    text-align: center; }
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
-    margin-left: 20%; }
-    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
-      margin: 0 auto; }
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
-    width: 100%; } }
-@media screen and (min-width: 500px) and (max-width: 768px) {
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
-    width: 40%;
-    margin-left: 30%; }
-    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
-      margin: 0 auto; } }
-@media screen and (min-width: 300px) and (max-width: 499px) {
-  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
-    width: 50%;
-    margin-left: 30%; }
-    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
-      margin: 0 auto; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/_footer.scss:61
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/extend.rb:62:in `block in check_extends_fired!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util/subset_map.rb:105:in `block in each_value'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util/subset_map.rb:105:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util/subset_map.rb:105:in `each_value'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/extend.rb:16:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:39:in `css_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \"body > footer > #redes-sociais ul#redes-sociais__icons > li > a.icon\" failed to @extend \".sprite_redes_sociais\".\A The selector \".sprite_redes_sociais\" was not found.\A Use \"@extend .sprite_redes_sociais !optional\" if the extend should be able to fail.\A "; }
