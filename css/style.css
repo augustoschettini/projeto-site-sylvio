@@ -78,4 +78,67 @@ body > header {
                 color: #76ff03;
                 background: #33691e; }
 
+body > footer {
+  background: #ccc;
+  padding: 30px 0 95px; }
+  body > footer #footer-sidebar > .footer-widget {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      body > footer #footer-sidebar > .footer-widget {
+        float: left;
+        width: 33.33333%; } }
+    @media (min-width: 992px) {
+      body > footer #footer-sidebar > .footer-widget {
+        float: left;
+        width: 33.33333%; } }
+    body > footer #footer-sidebar > .footer-widget p {
+      color: #000;
+      font: 11px "Roboto", sans-serif; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
+      display: block;
+      width: 80%; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
+      width: 75%;
+      margin: 20px 0 0; }
+
+@media screen and (max-width: 768px) {
+  body > header > .content > .logo-container > .logo-container__logo {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%; }
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about a,
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
+    text-align: center; }
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
+    margin-left: 20%; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
+      margin: 0 auto; }
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
+    width: 100%; } }
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
+    width: 40%;
+    margin-left: 30%; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
+      margin: 0 auto; } }
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
+    width: 50%;
+    margin-left: 30%; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about a > img {
+      margin: 0 auto; } }
+
 /*# sourceMappingURL=style.css.map */

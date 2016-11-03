@@ -1,0 +1,33 @@
+body{
+    > footer{
+        background: #ccc;
+        padding: 30px 0 95px;
+        #footer-sidebar{
+            > .footer-widget{
+                @include make-xs-column(12);
+                @include make-sm-column(4);
+                @include make-md-column(4);
+                
+                > h4.widget__title{
+                    > span{
+                        
+                    }
+                }
+                p{
+                    color: #000;
+                    font: 11px $font-main;
+                }
+                &.footer-widget--about{
+                    a{
+                        display: block;
+                        width: 80%;
+                    }
+                    p{
+                        width: 75%;
+                        margin: 20px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
