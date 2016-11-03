@@ -51,44 +51,47 @@ body{
             background: #424242;
             padding: 10px 0;
             
-            ul#redes-sociais__icons{
-                > li{
-                    display: inline;
-                    float: left;
-                    margin-right: 5px;
-                    > a.icon{
-                        display: block;
-                        @extend .sprite_redes_sociais;
-                        &,
-                        &:hover{
-                            transition: all 0.2s linear;
+            #redes-sociais__container{
+				@include make-md-column(12);
+                
+                    > ul#redes-sociais__icons{
+                        > li{
+                            display: inline;
+                            float: left;
+                            margin-right: 5px;
+                            > a.icon{
+                                display: block;
+                                @extend .sprite_redes_sociais;
+                                &,
+                                &:hover{
+                                    transition: all 0.2s linear;
+                                }
+
+                        &.icon--facebook{
+                            @include sprite-define(30px, 30px, -5px, -48px);
+                            &:hover{
+                                backgroung-position-y:-5px;
+                            }
                         }
-                
-                &.icon--facebook{
-                    @include sprite-define(30px, 30px, -5px, -47px);
-                    &:hover{
-                        backgroung-position-y:-5px;
-                    }
+
+                        &.icon--twitter{
+                            @include sprite-define(30px, 30px, -5px, -132px);
+                            &:hover{
+                                backgroung-position-y:-89px;
+                            }
+                        }
+
+                        &.icon--youtube{
+                            @include sprite-define(30px, 30px, -6px, -216px);
+                            &:hover{
+                                backgroung-position-y:-173px;
+                                    }
+                                }
+                            }
+                        }
+
                 }
-                
-                &.icon--twitter{
-                    @include sprite-define(30px, 30px, -5px, -131px);
-                    &:hover{
-                        backgroung-position-y:-89px;
-                    }
-                }
-                
-                &.icon--youtube{
-                    @include sprite-define(30px, 30px, -5px, -215px);
-                    &:hover{
-                        backgroung-position-y:-173px;
-                    }
-                }
-                }
-            }
-            
-                
-            }
+              }
         }
     }
 }

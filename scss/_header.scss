@@ -22,8 +22,8 @@ body{
 
             }
             > .menu-container{
-                @include make-md-column(6);
-                @include make-md-column-offset(6);
+                @include make-md-column(7);
+                @include make-md-column-offset(5);
                 .navbar{
                     border-radius: 6px;
                     box-shadow: none;
