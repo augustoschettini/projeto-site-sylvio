@@ -1,5 +1,6 @@
 body > header {
-  padding: 25px 0; }
+  padding: 25px 0;
+  background: #4CAF50; }
   body > header > .content {
     margin-left: -15px;
     margin-right: -15px; }
@@ -26,6 +27,23 @@ body > header {
           body > header > .content > .logo-container > .logo-container__logo {
             float: left;
             width: 83.33333%; } }
+    body > header > .content > .search-container {
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (min-width: 992px) {
+        body > header > .content > .search-container {
+          float: left;
+          width: 58.33333%; } }
+      @media (min-width: 992px) {
+        body > header > .content > .search-container {
+          margin-left: 41.66667%; } }
+      body > header > .content > .search-container input {
+        height: 45px;
+        font: 13px "Roboto", sans-serif;
+        color: #FFFFFF;
+        margin-top: 7px; }
     body > header > .content > .menu-container {
       position: relative;
       min-height: 1px;
@@ -34,14 +52,30 @@ body > header {
       @media (min-width: 992px) {
         body > header > .content > .menu-container {
           float: left;
-          width: 58.33333%; } }
+          width: 50%; } }
       @media (min-width: 992px) {
         body > header > .content > .menu-container {
-          margin-left: 41.66667%; } }
-body input {
-  height: 45px;
-  font: 13px "Roboto";
-  color: #FFFFFF;
-  margin-top: 7px; }
+          margin-left: 50%; } }
+      body > header > .content > .menu-container .navbar {
+        border-radius: 6px;
+        box-shadow: none;
+        border: none;
+        background: #558b2f; }
+        body > header > .content > .menu-container .navbar .navbar-collapse {
+          border: none; }
+          body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
+            padding-left: 5px;
+            padding-right: 5px; }
+            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a {
+              background: #33691e;
+              color: #fff;
+              font: bold 17px "Roboto", sans-serif; }
+              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a:hover {
+                color: #76ff03; }
+            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a {
+              color: #fff; }
+              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
+                color: #76ff03;
+                background: #33691e; }
 
 /*# sourceMappingURL=style.css.map */
