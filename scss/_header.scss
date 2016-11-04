@@ -30,15 +30,20 @@ body{
                     border: none;
                     background: #558b2f;
                     .navbar-toggle{
-                        border-color: aquamarine;
+                        border-color: #76ff03;
+                        background: #33691e;
                         &:hover{
-                            background: #fff;
+                            background: #33691e;
+                            border-color: #33691e;
+                            .icon-bar{ background: #76ff03;}
                         }
                         &:focus{
-                            background: #fff;
+                            background: #33691e;
+                            border-color: #33691e;
+                            .icon-bar{ background: #76ff03;}
                         }
                         > .icon-bar{
-                            background: #000;
+                            background: #fff;
                         }
                     }
                     .navbar-collapse{

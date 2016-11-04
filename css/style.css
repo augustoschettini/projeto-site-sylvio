@@ -118,13 +118,20 @@ body > header {
         border: none;
         background: #558b2f; }
         body > header > .content > .menu-container .navbar .navbar-toggle {
-          border-color: aquamarine; }
+          border-color: #76ff03;
+          background: #33691e; }
           body > header > .content > .menu-container .navbar .navbar-toggle:hover {
-            background: #fff; }
+            background: #33691e;
+            border-color: #33691e; }
+            body > header > .content > .menu-container .navbar .navbar-toggle:hover .icon-bar {
+              background: #76ff03; }
           body > header > .content > .menu-container .navbar .navbar-toggle:focus {
-            background: #fff; }
+            background: #33691e;
+            border-color: #33691e; }
+            body > header > .content > .menu-container .navbar .navbar-toggle:focus .icon-bar {
+              background: #76ff03; }
           body > header > .content > .menu-container .navbar .navbar-toggle > .icon-bar {
-            background: #000; }
+            background: #fff; }
         body > header > .content > .menu-container .navbar .navbar-collapse {
           border: none; }
           body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
