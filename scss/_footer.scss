@@ -68,41 +68,48 @@ body{
 				@include make-md-column(12);
                 
                     > ul#redes-sociais__icons{
+                        float: left;
+                        
                         > li{
                             display: inline;
                             float: left;
                             margin-right: 5px;
+                            
                             > a.icon{
                                 display: block;
                                 @extend .sprite_redes_sociais;
+                                
                                 &,
                                 &:hover{
-                                    transition: all 0.2s linear;
+                                    transition: all 0.5s linear;
                                 }
 
                         &.icon--facebook{
                             @include sprite-define(30px, 30px, -5px, -48px);
                             &:hover{
-                                backgroung-position-y:-5px;
+                                backgroung-position: -5px -5px;
                             }
                         }
 
                         &.icon--twitter{
                             @include sprite-define(30px, 30px, -5px, -132px);
                             &:hover{
-                                backgroung-position-y:-89px;
+                                backgroung-position: -5px -89px;
                             }
                         }
 
                         &.icon--youtube{
                             @include sprite-define(30px, 30px, -6px, -216px);
                             &:hover{
-                                backgroung-position-y:-173px;
+                                backgroung-position: -6px -173px;
+                                
                                     }
                                 }
                             }
                         }
-
+                    > :last-child{
+						margin-right: 0;
+					}
                 }
               }
         }

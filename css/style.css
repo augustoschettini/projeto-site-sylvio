@@ -50,10 +50,6 @@ a {
 .container .widget > .widget__title > span {
   left: 0; }
 
-.sprite_servicos {
-  background-image: url(../images/sprite-redes-sociais.png);
-  background-repeat: no-repeat; }
-
 .sprite_redes_sociais, body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon {
   background-image: url(../images/sprite-redes-sociais.png);
   background-repeat: no-repeat; }
@@ -121,6 +117,14 @@ body > header {
         box-shadow: none;
         border: none;
         background: #558b2f; }
+        body > header > .content > .menu-container .navbar .navbar-toggle {
+          border-color: aquamarine; }
+          body > header > .content > .menu-container .navbar .navbar-toggle:hover {
+            background: #fff; }
+          body > header > .content > .menu-container .navbar .navbar-toggle:focus {
+            background: #fff; }
+          body > header > .content > .menu-container .navbar .navbar-toggle > .icon-bar {
+            background: #000; }
         body > header > .content > .menu-container .navbar .navbar-collapse {
           border: none; }
           body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
@@ -278,32 +282,36 @@ body > footer {
         body > footer > #redes-sociais #redes-sociais__container {
           float: left;
           width: 100%; } }
-      body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li {
-        display: inline;
-        float: left;
-        margin-right: 5px; }
-        body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon {
-          display: block; }
-          body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon, body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon:hover {
-            transition: all 0.2s linear; }
-          body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook {
-            width: 30px;
-            height: 30px;
-            background-position: -5px -48px; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook:hover {
-              backgroung-position-y: -5px; }
-          body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter {
-            width: 30px;
-            height: 30px;
-            background-position: -5px -132px; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter:hover {
-              backgroung-position-y: -89px; }
-          body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube {
-            width: 30px;
-            height: 30px;
-            background-position: -6px -216px; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube:hover {
-              backgroung-position-y: -173px; }
+      body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons {
+        float: left; }
+        body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li {
+          display: inline;
+          float: left;
+          margin-right: 5px; }
+          body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon {
+            display: block; }
+            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon, body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon:hover {
+              transition: all 0.5s linear; }
+            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook {
+              width: 30px;
+              height: 30px;
+              background-position: -5px -48px; }
+              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook:hover {
+                backgroung-position: -5px -5px; }
+            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter {
+              width: 30px;
+              height: 30px;
+              background-position: -5px -132px; }
+              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter:hover {
+                backgroung-position: -5px -89px; }
+            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube {
+              width: 30px;
+              height: 30px;
+              background-position: -6px -216px; }
+              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube:hover {
+                backgroung-position: -6px -173px; }
+        body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > :last-child {
+          margin-right: 0; }
 
 @media screen and (max-width: 768px) {
   body > header > .content > .logo-container > .logo-container__logo {

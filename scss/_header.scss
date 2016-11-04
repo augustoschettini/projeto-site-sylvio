@@ -29,6 +29,18 @@ body{
                     box-shadow: none;
                     border: none;
                     background: #558b2f;
+                    .navbar-toggle{
+                        border-color: aquamarine;
+                        &:hover{
+                            background: #fff;
+                        }
+                        &:focus{
+                            background: #fff;
+                        }
+                        > .icon-bar{
+                            background: #000;
+                        }
+                    }
                     .navbar-collapse{
                         border: none;
                         > ul.navbar-nav{
