@@ -8,19 +8,19 @@ body{
                 @include make-md-column(3);
                 > .logo-container__logo{
                     @include make-md-column(10);
-                }
-            }
-            > .search-container{
-                @include make-md-column(7);
-                @include make-md-column-offset(5);
-                input{
-                    height: 45px;
-                    font: 13px $font-main;
-                    color: #FFFFFF;
-                    margin-top: 7px;
-                }
-
-            }
+                } // Fim .logo-container__logo 
+            } // Fim .logo-container
+           // > .search-container{
+           //     @include make-md-column(7);
+           //     @include make-md-column-offset(5);
+           //     input{
+           //           height: 45px;
+           //           font: 13px $font-main;
+           //           color: #FFFFFF;
+           //           margin-top: 7px;
+           // }
+        
+            } // Fim content
             > .menu-container{
                 @include make-md-column(7);
                 @include make-md-column-offset(5);
@@ -69,15 +69,11 @@ body{
                                     color: #76ff03;
                                     background: #33691e;
                                     }
-                                }
-                                
-                            }
-                        }
-                    }
-                }
-
-                }
-            }
+                                } // Fim a > li > ul.navbar-nav 
+                            } // Fim li > ul.navbar-nav
+                        } // Fim ul.navbar-nav
+                    } // Fim navbar-collapse
+                } // Fim navbar
+              } // Fim do menu-container
         } // Fim do header 
-
-}
+} // Fim do Body

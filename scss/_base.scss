@@ -4,7 +4,26 @@ a{
 		border: none;
 	}
 }
-
+a.saiba-mais{
+        margin-bottom: 15px;
+		background: #8BC34A;
+		color:#fff;
+		font: bold 13px $font_main;
+		padding: 10px;
+		text-align: center;
+		display: block;
+		width: auto;
+		float: right;
+		margin-right: 15px;
+		border: 2px solid #4CAF50;
+		transition: all 0.2s linear;
+		&:hover{
+			background: #33691E;
+			color: #76FF03;
+			text-decoration: none;
+			transition: all 0.2s linear;
+	}
+}
 .content{
 	@include make-row;
 }

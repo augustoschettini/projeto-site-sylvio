@@ -3,6 +3,25 @@ a {
   a img {
     border: none; }
 
+a.saiba-mais {
+  margin-bottom: 15px;
+  background: #8BC34A;
+  color: #fff;
+  font: bold 13px "Roboto", sans-serif;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: auto;
+  float: right;
+  margin-right: 15px;
+  border: 2px solid #4CAF50;
+  transition: all 0.2s linear; }
+  a.saiba-mais:hover {
+    background: #33691E;
+    color: #76FF03;
+    text-decoration: none;
+    transition: all 0.2s linear; }
+
 .content {
   margin-left: -15px;
   margin-right: -15px; }
@@ -25,7 +44,7 @@ a {
 .container .widget > .widget__title {
   margin: 0 0 30px;
   font: bold 18px "Roboto", sans-serif;
-  color: #636363;
+  color: #000;
   position: relative;
   line-height: 30px;
   text-indent: 14px; }
@@ -83,71 +102,54 @@ body > header {
           body > header > .content > .logo-container > .logo-container__logo {
             float: left;
             width: 83.33333%; } }
-    body > header > .content > .search-container {
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        body > header > .content > .search-container {
-          float: left;
-          width: 58.33333%; } }
-      @media (min-width: 992px) {
-        body > header > .content > .search-container {
-          margin-left: 41.66667%; } }
-      body > header > .content > .search-container input {
-        height: 45px;
-        font: 13px "Roboto", sans-serif;
-        color: #FFFFFF;
-        margin-top: 7px; }
-    body > header > .content > .menu-container {
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px; }
-      @media (min-width: 992px) {
-        body > header > .content > .menu-container {
-          float: left;
-          width: 58.33333%; } }
-      @media (min-width: 992px) {
-        body > header > .content > .menu-container {
-          margin-left: 41.66667%; } }
-      body > header > .content > .menu-container .navbar {
-        border-radius: 6px;
-        box-shadow: none;
-        border: none;
-        background: #558b2f; }
-        body > header > .content > .menu-container .navbar .navbar-toggle {
-          border-color: #76ff03;
-          background: #33691e; }
-          body > header > .content > .menu-container .navbar .navbar-toggle:hover {
+  body > header > .menu-container {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      body > header > .menu-container {
+        float: left;
+        width: 58.33333%; } }
+    @media (min-width: 992px) {
+      body > header > .menu-container {
+        margin-left: 41.66667%; } }
+    body > header > .menu-container .navbar {
+      border-radius: 6px;
+      box-shadow: none;
+      border: none;
+      background: #558b2f; }
+      body > header > .menu-container .navbar .navbar-toggle {
+        border-color: #76ff03;
+        background: #33691e; }
+        body > header > .menu-container .navbar .navbar-toggle:hover {
+          background: #33691e;
+          border-color: #33691e; }
+          body > header > .menu-container .navbar .navbar-toggle:hover .icon-bar {
+            background: #76ff03; }
+        body > header > .menu-container .navbar .navbar-toggle:focus {
+          background: #33691e;
+          border-color: #33691e; }
+          body > header > .menu-container .navbar .navbar-toggle:focus .icon-bar {
+            background: #76ff03; }
+        body > header > .menu-container .navbar .navbar-toggle > .icon-bar {
+          background: #fff; }
+      body > header > .menu-container .navbar .navbar-collapse {
+        border: none; }
+        body > header > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
+          padding-left: 5px;
+          padding-right: 5px; }
+          body > header > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a {
             background: #33691e;
-            border-color: #33691e; }
-            body > header > .content > .menu-container .navbar .navbar-toggle:hover .icon-bar {
-              background: #76ff03; }
-          body > header > .content > .menu-container .navbar .navbar-toggle:focus {
-            background: #33691e;
-            border-color: #33691e; }
-            body > header > .content > .menu-container .navbar .navbar-toggle:focus .icon-bar {
-              background: #76ff03; }
-          body > header > .content > .menu-container .navbar .navbar-toggle > .icon-bar {
-            background: #fff; }
-        body > header > .content > .menu-container .navbar .navbar-collapse {
-          border: none; }
-          body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li {
-            padding-left: 5px;
-            padding-right: 5px; }
-            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a {
-              background: #33691e;
-              color: #fff;
-              font: bold 17px "Roboto", sans-serif; }
-              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a:hover {
-                color: #76ff03; }
-            body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a {
-              color: #fff; }
-              body > header > .content > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
-                color: #76ff03;
-                background: #33691e; }
+            color: #fff;
+            font: bold 17px "Roboto", sans-serif; }
+            body > header > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li.active > a:hover {
+              color: #76ff03; }
+          body > header > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a {
+            color: #fff; }
+            body > header > .menu-container .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
+              color: #76ff03;
+              background: #33691e; }
 
 #slider {
   margin-bottom: 30px; }
@@ -213,6 +215,110 @@ body > header {
       color: #fff;
       text-decoration: none;
       transition: all 0.2s linear; }
+
+.container-fluid {
+  background: #81C784; }
+
+#blog {
+  margin-top: 30px; }
+  #blog > h2.heading {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #blog > h2.heading {
+        float: left;
+        width: 75%; } }
+  #blog > .teste {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #blog > .teste {
+        float: left;
+        width: 75%; } }
+  #blog #posts {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      #blog #posts {
+        float: left;
+        width: 75%; } }
+    @media (min-width: 992px) {
+      #blog #posts {
+        float: left;
+        width: 75%; } }
+    #blog #posts > .post__item {
+      margin-bottom: 30px; }
+      #blog #posts > .post__item > h2 {
+        font: 300 26px "Roboto", sans-serif;
+        color: #CC1F22;
+        margin: 15px 0 5px; }
+      #blog #posts > .post__item > p {
+        font: 300 16px "Roboto", sans-serif;
+        color: #000;
+        line-height: 1.5;
+        margin-bottom: 15px; }
+      #blog #posts > .post__item > a.read-more {
+        display: block;
+        float: right;
+        width: 140px;
+        padding: 10px 0;
+        background-color: #CD1F23;
+        text-align: center;
+        font: 300 14px "Roboto", sans-serif;
+        color: #fff; }
+  #blog aside {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    display: block;
+    margin: 30px 0; }
+    @media (min-width: 768px) {
+      #blog aside {
+        float: left;
+        width: 25%; } }
+    @media (min-width: 992px) {
+      #blog aside {
+        float: left;
+        width: 25%; } }
+    #blog aside > #sidebar > .widget > h3.widget__title {
+      font-size: 16px;
+      text-indent: 9px;
+      margin-bottom: 13px; }
+      #blog aside > #sidebar > .widget > h3.widget__title > span {
+        width: 4px; }
+    #blog aside > #sidebar > .widget > .widget__body {
+      width: 100%;
+      min-height: 220px;
+      background-color: #636363;
+      margin-bottom: 30px; }
 
 body > footer {
   background: #ccc;

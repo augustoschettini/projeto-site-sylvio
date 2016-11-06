@@ -84,27 +84,28 @@ body{
                                     transition: all 0.5s linear;
                                 }
 
-                        &.icon--facebook{
-                            @include sprite-define(30px, 30px, -5px, -48px);
-                            &:hover{
-                                backgroung-position: -5px -5px;
-                            }
-                        }
-
-                        &.icon--twitter{
-                            @include sprite-define(30px, 30px, -5px, -132px);
-                            &:hover{
-                                backgroung-position: -5px -89px;
-                            }
-                        }
-
-                        &.icon--youtube{
-                            @include sprite-define(30px, 30px, -6px, -216px);
-                            &:hover{
-                                backgroung-position: -6px -173px;
-                                
+                                &.icon--facebook{
+                                    @include sprite-define(30px, 30px, -5px, -48px);
+                                    &:hover{
+                                        backgroung-position: -5px -5px;
                                     }
                                 }
+
+                                &.icon--twitter{
+                                    @include sprite-define(30px, 30px, -5px, -132px);
+                                    &:hover{
+                                        backgroung-position: -5px -89px;
+                                    }
+                                }
+
+                                &.icon--youtube{
+                                    @include sprite-define(30px, 30px, -6px, -216px);
+                                    &:hover{
+                                        backgroung-position: -6px -173px;
+
+                                            }
+                                    
+                                        }
                             }
                         }
                     > :last-child{
