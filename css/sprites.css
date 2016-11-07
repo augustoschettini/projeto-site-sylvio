@@ -1,0 +1,30 @@
+.sprite_redes_sociais{
+    background-image: url(../images/sprite-redes-sociais.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.icon--facebook{
+    background-position: -5px -48px;
+}
+.icon--facebook:hover{
+    background-position: -5px -5px;
+}
+.icon--twitter{
+    background-position: -5px -132px;
+}
+.icon--twitter:hover{
+    background-position: -5px -89px;
+}
+.icon--youtube{
+    background-position: -6px -216px;
+}
+.icon--youtube:hover{
+    background-position: -6px -173px;
+}
+.copyright{
+    display: inline-block;
+    color: #fff;
+    margin-top: 6px;
+    margin-left: 50px;
+}

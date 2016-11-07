@@ -69,10 +69,6 @@ a.saiba-mais {
 .container .widget > .widget__title > span {
   left: 0; }
 
-.sprite_redes_sociais, body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon {
-  background-image: url(../images/sprite-redes-sociais.png);
-  background-repeat: no-repeat; }
-
 body > header {
   padding: 25px 0;
   background: #4CAF50; }
@@ -324,7 +320,7 @@ body > footer {
   background: #ccc;
   padding: 30px 0 0; }
   body > footer > .container {
-    padding-bottom: 95px; }
+    padding-bottom: 10px; }
   body > footer #footer-sidebar > .footer-widget {
     position: relative;
     float: left;
@@ -384,8 +380,7 @@ body > footer {
       width: 75%;
       margin: 20px 0 0; }
   body > footer > #redes-sociais {
-    background: #424242;
-    padding: 10px 0; }
+    background: #424242; }
     body > footer > #redes-sociais #redes-sociais__container {
       position: relative;
       min-height: 1px;
@@ -396,7 +391,8 @@ body > footer {
           float: left;
           width: 100%; } }
       body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons {
-        float: left; }
+        float: left;
+        margin: 10px; }
         body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li {
           display: inline;
           float: left;
@@ -404,25 +400,7 @@ body > footer {
           body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon {
             display: block; }
             body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon, body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon:hover {
-              transition: all 0.5s linear; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook {
-              width: 30px;
-              height: 30px;
-              background-position: -5px -48px; }
-              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--facebook:hover {
-                backgroung-position: -5px -5px; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter {
-              width: 30px;
-              height: 30px;
-              background-position: -5px -132px; }
-              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--twitter:hover {
-                backgroung-position: -5px -89px; }
-            body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube {
-              width: 30px;
-              height: 30px;
-              background-position: -6px -216px; }
-              body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > li > a.icon.icon--youtube:hover {
-                backgroung-position: -6px -173px; }
+              transition: all 0.2s linear; }
         body > footer > #redes-sociais #redes-sociais__container > ul#redes-sociais__icons > :last-child {
           margin-right: 0; }
 

@@ -3,7 +3,7 @@ body{
         background: #ccc;
         padding: 30px 0 0;
         > .container{
-            padding-bottom:  95px;
+            padding-bottom:  10px;
         }
         #footer-sidebar{
             > .footer-widget{
@@ -62,13 +62,14 @@ body{
         }
         > #redes-sociais{
             background: #424242;
-            padding: 10px 0;
+            //padding: 10px 0;
             
             #redes-sociais__container{
 				@include make-md-column(12);
                 
                     > ul#redes-sociais__icons{
                         float: left;
+                        margin: 10px;
                         
                         > li{
                             display: inline;
@@ -77,35 +78,35 @@ body{
                             
                             > a.icon{
                                 display: block;
-                                @extend .sprite_redes_sociais;
+                                //@extend .sprite_redes_sociais;
                                 
                                 &,
                                 &:hover{
-                                    transition: all 0.5s linear;
+                                    transition: all 0.2s linear;
                                 }
 
-                                &.icon--facebook{
-                                    @include sprite-define(30px, 30px, -5px, -48px);
-                                    &:hover{
-                                        backgroung-position: -5px -5px;
-                                    }
-                                }
+                                //&.icon--facebook{
+                                  //  @include sprite-define(30px, 30px, -5px, -48px);
+                                   // &:hover{
+                                    //    backgroung-position: -5px -5px;
+                                    //}
+                             //   }
 
-                                &.icon--twitter{
-                                    @include sprite-define(30px, 30px, -5px, -132px);
-                                    &:hover{
-                                        backgroung-position: -5px -89px;
-                                    }
-                                }
+                            //    &.icon--twitter{
+                             //       @include sprite-define(30px, 30px, -5px, -132px);
+                            //        &:hover{
+                              //          backgroung-position: -5px -89px;
+                             //       }
+                          //      }
 
-                                &.icon--youtube{
-                                    @include sprite-define(30px, 30px, -6px, -216px);
-                                    &:hover{
-                                        backgroung-position: -6px -173px;
+                               // &.icon--youtube{
+                                //    @include sprite-define(30px, 30px, -6px, -216px);
+                                //    &:hover{
+                                 //       backgroung-position: -6px -173px;
 
-                                            }
+                                  //          }
                                     
-                                        }
+                                 //       }
                             }
                         }
                     > :last-child{
