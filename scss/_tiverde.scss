@@ -1,0 +1,9 @@
+#artigo{
+    > h3{
+        font: 300 26px $font_main;
+        color: #666;
+    }// Fim do H3
+    > p{
+        text-indent: 15px;
+    }
+}
