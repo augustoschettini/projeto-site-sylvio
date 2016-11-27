@@ -2,20 +2,18 @@
     margin-top: 30px;
     > h2.heading {
         @include make-md-column(9);
-        //background: rgba(255,255,255,0.7);
     }
     > .teste {
         @include make-md-column(9);
         background: rgba(255,255,255,0.7);
+        padding-top: 15px;
     }
-    //.content{
         #posts{
         @include make-xs-column(12);
         @include make-sm-column(9);
         @include make-md-column(9);
-        background: rgba(255,255,255,0.7);
             > .post__item{
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 > h2 {
                     font: 300 26px $font_main;
                     color: #CC1F22;
@@ -39,40 +37,11 @@
                 } // Fim do a.read-more
             } // Fim .post__item
         } // Fim posts
-   // } // Fim do content
-
-    
-        
-    
     aside{
         @include make-xs-column(12);
         @include make-sm-column(3);
         @include make-md-column(3);
-        float: right;
-        display: block;
-        margin: 0 0 30px;
-        padding-top: 15px;
         background: rgba(255,255,255,0.7);
-        
-        > #sidebar{
-            > .widget{
-                > h3.widget__title{
-                    font-size: 16px;
-                    text-indent: 9px;
-                    margin-bottom: 13px;
-                    > span{
-                        width: 4px;
-                    } // Fim do span
-                } // Fim do h3.widget__title
-                > .widget__body{
-                    width: 100%;
-                    min-height: 220px;
-                    background-color: #636363;
-                    margin-bottom: 30px;
-                } // Fim do .widget__body
-            } // Fim .widget
-        
-        } // Fim sidebar
-    }
-    
+    } // Fim do aside
 } // Fim Blog
+
