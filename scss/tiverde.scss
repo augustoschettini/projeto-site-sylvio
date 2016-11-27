@@ -1,0 +1,19 @@
+
+body{
+    > section{
+        > article{
+            background: rgba(255,255,255,0.7);
+            >h3{
+                font: 400 24px '$font_main2';
+            }
+            >h4{
+                font: 300 20px '$font_main2';
+                color: #666;
+            }// Fim do H3
+            >p{
+                font:  300 16px '$font_main';
+                text-indent: 15px;
+            }// Fim do P
+        }// Fim do article
+    }// Fim do section
+}// Fim do body

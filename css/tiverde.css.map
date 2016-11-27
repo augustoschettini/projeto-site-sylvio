@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGQ,wBAAS;EACL,UAAU,EAAE,wBAAqB;EACjC,6BAAG;IACC,IAAI,EAAE,sBAAsB;EAEhC,6BAAG;IACC,IAAI,EAAE,sBAAsB;IAC5B,KAAK,EAAE,IAAI;EAEf,4BAAE;IACE,IAAI,EAAG,qBAAqB;IAC5B,WAAW,EAAE,IAAI",
+"sources": ["../scss/tiverde.scss"],
+"names": [],
+"file": "tiverde.css"
+}

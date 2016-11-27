@@ -1,0 +1,12 @@
+body > section > article {
+  background: rgba(255, 255, 255, 0.7); }
+  body > section > article > h3 {
+    font: 400 24px '$font_main2'; }
+  body > section > article > h4 {
+    font: 300 20px '$font_main2';
+    color: #666; }
+  body > section > article > p {
+    font: 300 16px '$font_main';
+    text-indent: 15px; }
+
+/*# sourceMappingURL=tiverde.css.map */
