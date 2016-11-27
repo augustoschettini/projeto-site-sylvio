@@ -5,6 +5,7 @@ a{
 	}
 }
 a.saiba-mais{
+        //margin-top: 15px;
         margin-bottom: 15px;
 		background: #8BC34A;
 		color:#fff;
@@ -37,7 +38,10 @@ a.saiba-mais{
 .navegacao-fixa .navbar{
 	background: transparent !important;
 }
-
+.container-fluid{
+    background-image: url(../images/background-1920x1080p.png);
+    background-repeat: repeat;
+}
 .container{
 	.heading,
 	.widget > .widget__title{
@@ -66,6 +70,14 @@ a.saiba-mais{
 		}
 	}
 }
+section{
+    div{
+        >article{
+            background: rgba(255,255,255,0.7);
+            padding: 5px 25px 55px;
+        }//Fim do article
+    }// Fim do DIV
+}//Fim do section
 
 //.sprite_servicos{
   //  background-image: url(../images/sprite-redes-sociais.png);
