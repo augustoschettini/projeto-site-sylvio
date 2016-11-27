@@ -2,15 +2,18 @@
     margin-top: 30px;
     > h2.heading {
         @include make-md-column(9);
+        //background: rgba(255,255,255,0.7);
     }
     > .teste {
         @include make-md-column(9);
+        background: rgba(255,255,255,0.7);
     }
     //.content{
         #posts{
         @include make-xs-column(12);
         @include make-sm-column(9);
         @include make-md-column(9);
+        background: rgba(255,255,255,0.7);
             > .post__item{
                 margin-bottom: 30px;
                 > h2 {
@@ -47,7 +50,10 @@
         @include make-md-column(3);
         float: right;
         display: block;
-        margin: 30px 0;
+        margin: 0 0 30px;
+        padding-top: 15px;
+        background: rgba(255,255,255,0.7);
+        
         > #sidebar{
             > .widget{
                 > h3.widget__title{
