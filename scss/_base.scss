@@ -45,12 +45,13 @@ a.saiba-mais{
 .container{
 	.heading,
 	.widget > .widget__title{
-		margin: 0 0 30px;
+		margin: 15px 0 20px;
 		font: bold 18px $font_main;
 		color: $heading_color;
 		position: relative;
 		line-height: 30px;
 		text-indent: 14px;
+        
 		> span{
 			display: inline-block;
 			width: 8px;
@@ -81,8 +82,4 @@ section{
     }// Fim do DIV
 }//Fim do section
 
-//.sprite_servicos{
-  //  background-image: url(../images/sprite-redes-sociais.png);
-    //background-repeat: no-repeat;
-//}
 
